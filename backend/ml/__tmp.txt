@@ -1,0 +1,8 @@
+﻿python : C:\Users\jahna\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\TRIZEN\\prepmind_suhi\\prepmind\\backend\\ml\\__tmp_check.py': [Errno 2] No such file or 
+directory
+At line:1 char:1
++ python __tmp_check.py 2>&1 | out-file -encoding utf8 __tmp.txt; cat _ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\ja    hna\...le or directory:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

@@ -1,0 +1,12 @@
+2026-03-03T04:00:58.332Z - pdf is not a function
+TypeError: pdf is not a function
+    at E:\TRIZEN\prepmind_suhi\prepmind\backend\routes\userRoutes.js:27:26
+    at Layer.handleRequest (E:\TRIZEN\prepmind_suhi\prepmind\backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\TRIZEN\prepmind_suhi\prepmind\backend\node_modules\router\lib\route.js:157:13)
+    at done (E:\TRIZEN\prepmind_suhi\prepmind\backend\node_modules\multer\lib\make-middleware.js:50:7)
+    at indicateDone (E:\TRIZEN\prepmind_suhi\prepmind\backend\node_modules\multer\lib\make-middleware.js:54:68)
+    at Multipart.<anonymous> (E:\TRIZEN\prepmind_suhi\prepmind\backend\node_modules\multer\lib\make-middleware.js:215:7)
+    at Multipart.emit (node:events:519:28)
+    at emitCloseNT (node:internal/streams/destroy:147:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+

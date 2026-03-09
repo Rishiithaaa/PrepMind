@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+librosa
+joblib
+tensorflow
+scikit-learn==1.6.1
+pydub
+imageio-ffmpeg
