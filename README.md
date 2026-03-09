@@ -24,8 +24,7 @@ Evaluates candidate responses for:
 Analyzes voice responses to detect behavioral signals such as:
 - Confidence
 - Nervousness
-- Stress
-- Calmness
+- Agressiveness/Forcefulness
 
 The system uses a **CNN + LSTM architecture** trained on acoustic features extracted from speech.
 
@@ -98,26 +97,6 @@ Built using **FastAPI** for Speech Emotion Recognition using a **CNN + LSTM mode
 
 ## Database
 - MongoDB
-
----
-
-# Project Structure
-PrepMind
-│
-├── frontend # Next.js frontend
-│
-├── backend # Node.js backend
-│ ├── ml # ML microservice
-│ │ ├── app.py
-│ │ ├── model
-│ │ └── requirements.txt
-│ │
-│ ├── routes
-│ ├── controllers
-│ └── server.js
-│
-└── README.md
-
 
 ---
 
@@ -241,45 +220,6 @@ http://localhost:8008/docs
 5. AI evaluates technical response quality.
 6. System generates feedback and scores.
 7. Mastery Bridges recommend learning resources.
-
----
-
-# Research Concepts Used
-
-- Generative AI
-- Natural Language Processing
-- Speech Emotion Recognition
-- Deep Learning (CNN + LSTM)
-- Multimodal AI Analysis
-- Real-time AI Feedback Systems
-
----
-
-# Keywords
-
-Artificial Intelligence  
-Interview Preparation System  
-Generative AI  
-Speech Emotion Recognition (SER)  
-CNN-LSTM  
-Natural Language Processing  
-Technical Assessment  
-Behavioral Analysis  
-Next.js  
-Node.js  
-FastAPI  
-Groq Llama-3
-
----
-
-# Future Improvements
-
-- Real-time video interview simulation
-- Facial expression analysis
-- AI interviewer avatars
-- Performance analytics over multiple sessions
-- Resume-based question generation
-- Multi-language interview support
 
 ---
 
