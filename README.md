@@ -24,7 +24,7 @@ Evaluates candidate responses for:
 Analyzes voice responses to detect behavioral signals such as:
 - Confidence
 - Nervousness
-- Agressiveness/Forcefulness
+- Aggressiveness/Forcefulness
 
 The system uses a **CNN + LSTM architecture** trained on acoustic features extracted from speech.
 
